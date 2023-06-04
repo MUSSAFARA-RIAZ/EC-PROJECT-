@@ -30,7 +30,7 @@ const Blogcategory = () => {
         <ul className='item-nav'>
           <li>
             <button
-            style={{backgroundColor:"lightslategray",padding:10,margin:5,borderRadius:10}}
+            id='s-btn'
               className={selectedCategory === 'all' ? 'active' : ''}
               onClick={() => handleCategoryChange('all')}
             >
@@ -39,8 +39,8 @@ const Blogcategory = () => {
           </li>
           {categories.map(category => (
             <li key={category}>
-              <button id='btn-cat'
-                style={{backgroundColor:"lightseagreen",padding:10,margin:5,borderRadius:10}}            
+              <button id='s-btn1'
+                            
               
                 className={selectedCategory === category ? 'active' : ''}
                 onClick={() => handleCategoryChange(category)}
