@@ -2,6 +2,7 @@ import React from 'react'
 import { useParams} from 'react-router-dom';
 import {useSelector} from 'react-redux';
 import './blog.css'
+import Navabr from './Navabr';
 
 export default function BlogContent() {
   const {id}=useParams();
@@ -12,6 +13,7 @@ export default function BlogContent() {
 
   return (
     <div>
+      <Navabr/>
     {
 
       getdata.length===0 ? "mussfara":(

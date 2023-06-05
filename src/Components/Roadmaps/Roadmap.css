@@ -1,0 +1,178 @@
+#r-main {
+  position: absolute;
+  width: 900px;
+  height: 58px;
+  left: 15%;
+  top: 25%;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 58px;
+
+  color: #000000;
+}
+#r-para {
+  position: absolute;
+  width: 547px;
+  height: 133px;
+  left: 15%;
+  top: 35%;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+
+  color: #000000;
+}
+#r-skill {
+  position: absolute;
+  width: 97px;
+  height: 22px;
+  left: 15%;
+  top: 70%;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 22px;
+
+  color: #000000;
+}
+#r-hori {
+  position: absolute;
+  width: 75rem;
+  height: 0px;
+  left: 10%;
+  top: 82%;
+
+  border: 1px solid #000000;
+}
+#r-b1 {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  left: 15%;
+  top: 75%;
+
+  background: #d9d9d9;
+}
+#r-b2 {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  left: 30%;
+  top: 75%;
+
+  background: #d9d9d9;
+}
+#r-b3 {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  left: 45%;
+  top: 75%;
+
+  background: #000000;
+
+}
+#r-b4 {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  left: 60%;
+  top: 75%;
+
+  background: #d9d9d9;
+}
+#r-b5 {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  left: 75%;
+  top: 75%;
+
+  background: #d9d9d9;
+}
+#r-a1{
+   
+
+position: absolute;
+width: 460px;
+height: 670px;
+left: 45%;
+top: 90%;
+
+background: #D9D9D9;
+border-radius: 15px;
+
+}
+#r-a1-image{
+   
+
+position: absolute;
+width: 400px;
+height: 280px;
+left: 7%;
+top: 10%;
+
+background: #939393;
+border-radius: 10px;
+
+}
+#r-a1-h{
+    
+
+position: absolute;
+width: 154px;
+height: 29px;
+left:7%;
+top: 60%;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 800;
+font-size: 24px;
+line-height: 29px;
+
+color: #666666;
+
+
+}
+#r-a1-p{
+   
+
+position: absolute;
+width: 375px;
+height: 95px;
+left: 7%;
+top: 70%;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+
+color: #000000;
+
+
+}
+#r-a1-b{
+   
+
+position: absolute;
+width: 153px;
+height: 48px;
+left: 7%;
+top: 80%;
+
+background: #000000;
+border-radius: 5px;
+color: white;
+
+}

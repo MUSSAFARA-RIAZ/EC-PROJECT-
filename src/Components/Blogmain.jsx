@@ -3,11 +3,13 @@ import './blog.css'
 import Blogcategory from './Blogcategory'
 import Blogpost from './Blogpost'
 import Footer from './Footer'
+import Navabr from './Navabr';
 
 
 export default function Blogmain() {
   return (
     <div>
+      <Navabr/>
      
      <div className='blog-introduction'>
      <h2>People found these helpful!</h2>
