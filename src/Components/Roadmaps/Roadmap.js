@@ -44,6 +44,7 @@ function Roadmap() {
       </div> */}
 
       {/* <Footer/> */}
+      <Footer/>
     </div>
   )
 }
