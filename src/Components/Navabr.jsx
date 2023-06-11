@@ -13,7 +13,7 @@ function Navabr() {
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto">
             <Nav.Link id='navbarlink' href="/home">Home</Nav.Link>
-            <Nav.Link id='navbarlink' href="#pricing">Tutorial</Nav.Link>
+            <Nav.Link id='navbarlink' href="/tutorial">Tutorial</Nav.Link>
             <Nav.Link id='navbarlink' href="/blog">Blog</Nav.Link>
             <Nav.Link id='navbarlink' href="/roadmap">Roadmaps</Nav.Link>
 

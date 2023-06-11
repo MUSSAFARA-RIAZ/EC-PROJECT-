@@ -10,6 +10,7 @@ import Login from '../src/Components/Login/Login'
 import Blogmain from './Components/Blogmain';
 import BlogContent from './Components/BlogContent';
 import Roadmap from './Components/Roadmaps/Roadmap';
+import Tutorials from './Components/Gallery/VideoGallery'
 
 export default function App() {
   return (
@@ -21,6 +22,7 @@ export default function App() {
         <Route path="/" element={<Signup />} />
         <Route path="/login" element={<Login />} />
           <Route path="/home" exact element={<Homepage/>} />
+          <Route path="/tutorial" exact element={<Tutorials/>} />
           <Route path="/blog" exact element={<Blogmain/>} />
           <Route path="/BlogContent" element={<BlogContent/>}></Route>
           <Route path="/roadmap" element={<Roadmap/>}></Route>
