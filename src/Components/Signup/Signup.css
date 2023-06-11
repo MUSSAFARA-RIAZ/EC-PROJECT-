@@ -1,5 +1,8 @@
 #signup-page {
     background-color: black;
+    background-image: url('../../../public/images/bg-.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
     font-family: "Poppins", sans-serif;
     width: 100%;
     height: 100vh;
@@ -19,7 +22,7 @@
     color: #ffffff;
   }
   .s-left span {
-    color: #006b38;
+    color: #f7d147;
   }
   .s-left p {
     position: absolute;
@@ -79,7 +82,7 @@
     left: 5%;
     top: 40rem;
     font-size: 16px;
-    background: #006b38;
+    background: #4176fa;
     border-radius: 5px;
     padding-left: 15px;
     cursor: pointer;
@@ -93,7 +96,7 @@
     left: 50%;
     top: 25rem;
 
-    background: #f7ffbc;
+    background: #f7d147;
     border-radius: 3px;
     transform: rotate(25deg);
   }
@@ -106,11 +109,11 @@
     left: 65%;
     top: 25rem;
 
-    border: 1px solid #006b38;
+    border: 1px solid #4176fa;
     border-radius: 5px;
     font-size: 16px;
 
-    background-color: black;
+    background-color: #8e1b90;
     color: #ffffff;
     cursor: pointer;
   }
@@ -124,11 +127,11 @@
     left: 65%;
     top: 30rem;
 
-    border: 1px solid #006b38;
+    border: 1px solid #4176fa;
     border-radius: 5px;
     font-size: 16px;
 
-    background-color: black;
+    background-color: #8e1b90;
     color: #ffffff;
     cursor: pointer;
   }
@@ -142,12 +145,12 @@
     left: 65%;
     top: 35rem;
 
-    border: 1px solid #006b38;
+    border: 1px solid #4176fa;
     border-radius: 5px;
 
     font-size: 16px;
 
-    background-color: black;
+    background-color: #8e1b90;
     color: #ffffff;
     cursor: pointer;
   }
@@ -188,7 +191,7 @@
     color: #ffffff;
   }
   #s-now {
-    color: #006b38;
+    color: #f7d147;
     cursor: pointer;
   }
   #s-logo {
@@ -217,7 +220,7 @@
     font-size: 20px;
     line-height: 24px;
 
-    border: 1px solid #006b38;
+    border: 1px solid #f7d147;
     border-radius: 5px;
     padding: 10px;
     color: #ffffff;

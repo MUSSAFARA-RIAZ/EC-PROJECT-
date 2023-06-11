@@ -1,5 +1,8 @@
 #login-page {
     background-color: black;
+    background-image: url('../../../public/images/bg-.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
     font-family: "Poppins", sans-serif;
     width: 100%;
     height: 100vh;
@@ -15,7 +18,7 @@
     font-size: 20px;
     line-height: 24px;
 
-    border: 1px solid #006b38;
+    border: 1px solid #f7d147;
     border-radius: 5px;
     padding: 10px;
     color: #ffffff;
@@ -50,7 +53,7 @@
     color: #ffffff;
   }
   .left span {
-    color: #006b38;
+    color: #f7d147;
   }
   .left p {
     position: absolute;
@@ -99,7 +102,7 @@
     left: 5%;
     top: 35rem;
     font-size: 16px;
-    background: #006b38;
+    background: #4176fa;
     border-radius: 5px;
     padding-left: 15px;
     cursor: pointer;
@@ -126,11 +129,11 @@
     left: 65%;
     top: 25rem;
 
-    border: 1px solid #006b38;
+    border: 1px solid #4176fa;
     border-radius: 5px;
     font-size: 16px;
 
-    background-color: black;
+    background-color: #8e1b90;
     color: #ffffff;
     cursor: pointer;
   }
@@ -144,11 +147,11 @@
     left: 65%;
     top: 30rem;
 
-    border: 1px solid #006b38;
+    border: 1px solid #4176fa;
     border-radius: 5px;
     font-size: 16px;
 
-    background-color: black;
+    background-color: #8e1b90;
     color: #ffffff;
     cursor: pointer;
   }
@@ -162,12 +165,12 @@
     left: 65%;
     top: 35rem;
 
-    border: 1px solid #006b38;
+    border: 1px solid #4176fa;
     border-radius: 5px;
 
     font-size: 16px;
 
-    background-color: black;
+    background-color: #8e1b90;
     color: #ffffff;
     cursor: pointer;
 }
@@ -207,7 +210,7 @@
     color: #ffffff;
   }
   #now {
-    color: #006b38;
+    color: #f7d147;
     cursor: pointer;
     
   }
@@ -225,7 +228,7 @@
     text-align: center;
     text-decoration-line: underline;
 
-    color: #ffffff;
+    color: #f7d147;
   }
 
    /* Mobile devices */

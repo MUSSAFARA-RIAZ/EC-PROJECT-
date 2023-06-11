@@ -10,7 +10,7 @@ export default function Codelove() {
       <div className='codecards'>
        <div className='code1'>
        <p className='codetext'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce volutpat elit ut quam viverra efficitur. Sed eu sem tristique, vestibulum nunc sed, pharetra libero. Vestibulum sed nisi nec mi lacinia feugiat. Duis at sapien ut sem imperdiet tincidunt. Vestibulum ante ipsum prim</p>
-       <Button variant="danger" style={{position:"relative",left:0,width:300}}>View</Button>
+       <Button variant="danger" style={{position:"relative",left:0,width:300, backgroundColor:'#4176fa'}}>View</Button>
        </div>
        <div className='code2'>
         <img 
