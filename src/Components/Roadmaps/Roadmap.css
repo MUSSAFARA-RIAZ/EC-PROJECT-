@@ -1,178 +1,167 @@
 #r-main {
   position: absolute;
-  width: 900px;
   height: 58px;
-  left: 15%;
   top: 25%;
+  padding-left: 15%;
+  padding-right: 5%;
+  text-align: center;
 
   font-family: "Poppins";
   font-style: normal;
   font-weight: 800;
   font-size: 48px;
   line-height: 58px;
-
   color: #000000;
+  
 }
 #r-para {
   position: absolute;
-  width: 547px;
+  width:100%;
   height: 133px;
-  left: 15%;
-  top: 35%;
+  top: 45%;
+  padding-left: 5%;
+  padding-right: 5%;
+ 
 
   font-family: "Poppins";
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 19px;
+  text-align: center;
 
   color: #000000;
 }
-#r-skill {
-  position: absolute;
-  width: 97px;
-  height: 22px;
-  left: 15%;
-  top: 70%;
 
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 800;
+.r-container {
+  width: 100%;
+  margin-top: 25rem;
+}
+
+.r-row {
+  width: 80%;
+  margin: auto;
+}
+
+.r-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.r-card {
+  flex-basis: calc(33.33% - 20px); /* Set the width of each div to 33.33% minus margin */
+  margin: 10px;
+  box-sizing: border-box;
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+
+.r-card img {
+  width: 100%;
+  height: 15rem;
+}
+
+.r-card h4 {
+  margin-top: 10px;
+  margin-left: 10px;
   font-size: 18px;
-  line-height: 22px;
-
-  color: #000000;
 }
-#r-hori {
-  position: absolute;
-  width: 75rem;
-  height: 0px;
-  left: 10%;
-  top: 82%;
 
-  border: 1px solid #000000;
+.r-card ul li {
+  font-size: 15px;
+  color: #6e6e6e;
+  line-height: 1.5;
+  padding: 10px;
 }
-#r-b1 {
-  position: absolute;
-  width: 100px;
-  height: 100px;
-  left: 15%;
-  top: 75%;
 
-  background: #d9d9d9;
+@media screen and (max-width: 800px) {
+  .r-card {
+    flex-basis: calc(50% - 20px); /* Adjust the width for smaller screens to display two divs per row */
+  }
+  #r-main{
+    margin-top: 0;
+    font-size: 2rem;
+  }
+  #r-para{
+    margin-top: 2rem;
+    font-size: .7rem;
+  }
+  .r-container{
+    margin-top: 100%;
+  }
 }
-#r-b2 {
-  position: absolute;
-  width: 100px;
-  height: 100px;
-  left: 30%;
-  top: 75%;
 
-  background: #d9d9d9;
+
+/* .r-container {
+  width: 100%;
+  margin-top: 25rem;
 }
-#r-b3 {
-  position: absolute;
-  width: 100px;
-  height: 100px;
-  left: 45%;
-  top: 75%;
 
-  background: #000000;
-
+.r-row {
+  width: 80%;
+  margin: auto;
 }
-#r-b4 {
-  position: absolute;
-  width: 100px;
-  height: 100px;
-  left: 60%;
-  top: 75%;
 
-  background: #d9d9d9;
+.r-content {
+  display: flex;
+  flex-wrap: wrap; 
+  justify-content: center;
+  align-items: center;
 }
-#r-b5 {
-  position: absolute;
-  width: 100px;
-  height: 100px;
-  left: 75%;
-  top: 75%;
 
-  background: #d9d9d9;
+.r-content .r-card {
+  flex: 0 0 calc(33.33% - 40px); 
+  margin: 50px 20px;
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
 }
-#r-a1{
-   
 
-position: absolute;
-width: 460px;
-height: 670px;
-left: 45%;
-top: 90%;
+@media screen and (max-width: 800px) {
+  .r-content .r-card {
+    flex: 0 0 calc(50% - 40px); 
+  }
+} */
 
-background: #D9D9D9;
-border-radius: 15px;
-
+/* .r-container{
+  width: 100%;
+  margin-top: 25rem;
+  
 }
-#r-a1-image{
-   
-
-position: absolute;
-width: 400px;
-height: 280px;
-left: 7%;
-top: 10%;
-
-background: #939393;
-border-radius: 10px;
-
+.r-row{
+  width: 80%;
+  margin: auto;
 }
-#r-a1-h{
-    
-
-position: absolute;
-width: 154px;
-height: 29px;
-left:7%;
-top: 60%;
-
-font-family: 'Inter';
-font-style: normal;
-font-weight: 800;
-font-size: 24px;
-line-height: 29px;
-
-color: #666666;
-
-
+.r-content{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-#r-a1-p{
-   
-
-position: absolute;
-width: 375px;
-height: 95px;
-left: 7%;
-top: 70%;
-
-font-family: 'Inter';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 19px;
-
-color: #000000;
-
-
+.r-content .r-card{
+  flex: 1;
+  margin: 50px 20px;
+  box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.1);
+  background-color: #fff;
 }
-#r-a1-b{
-   
 
-position: absolute;
-width: 153px;
-height: 48px;
-left: 7%;
-top: 80%;
-
-background: #000000;
-border-radius: 5px;
-color: white;
-
+.r-card img{
+  width: 100%;
+  height: auto;
 }
+.r-card h4{
+  margin-top: 10px;
+  margin-left: 10px;
+  font-size: 18px;
+}
+.r-card ul li{
+  font-size: 15px;
+  color: #6e6e6e;
+  line-height: 1.5;
+  padding: 10px;
+}
+
+@media screen and (max-width:800px){
+  .r-content{
+    flex-direction: column;
+  }
+} */
