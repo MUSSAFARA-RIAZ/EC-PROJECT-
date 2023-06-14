@@ -23,7 +23,7 @@ export default function Codelove() {
           quantity: 1,
         },
       ],
-      mode: 'Donate',
+      mode: 'subscription',
       successUrl: `http://localhost:3000/home`,
       cancelUrl: `http://localhost:3000/cancel`,
     });
