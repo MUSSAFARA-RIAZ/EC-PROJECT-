@@ -1,3 +1,8 @@
+.blogSec{
+  background-color: #016354;
+  color: #000000;
+}
+
 .blog-class{
  display: flex;
  width: 1000px;
@@ -75,11 +80,10 @@
  height:150px
 }
 .blog-introduction{
- 
- width: 1000px;
- margin: auto;
+ margin-top: 150px;
+ width: 100%;
  display: flex;
- justify-content: space-around;
+ flex-direction: column;
  align-items: center;
 
  
@@ -118,8 +122,8 @@ li{
 .blog-cat{
  width: 300px;
  border-radius: 8px;
+ border: 2px solid #F8AE45;
  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-
 border-radius: 10px;
  padding: 20px;
  margin-bottom: 20px;
@@ -128,10 +132,17 @@ border-radius: 10px;
  transition: transform 0.3s ease;
 }
 
+.blog-img{
+  width: 100%;
+  margin: 0 auto;
+}
+
 .text-animation{
  position: relative;
  animation: rainbow 2s linear infinite;
  text-align: center;
+ margin-top: 80px;
+ margin-bottom: 50px;
 }
 
 @keyframes rainbow {
@@ -157,14 +168,15 @@ border-radius: 10px;
  }
 }
 #s-btn{
-  background-color:"lightslategray";
+  background-color:#F8AE45;
   padding:10px;
   margin:5px;
   border-radius:10px;
 
 }
 #s-btn1{
-  background-color:lightseagreen;
+  background-color:#ff9d15;
+  border: none;
   padding:10px;
   margin:5px;
   border-radius:10px;
@@ -182,8 +194,7 @@ border-radius: 10px;
     margin: auto;
   }
   .blog-introduction{
-    display: block;
-    width: 600px;
+    display: block;    width: 600px;
     margin: 0;
   }
   .nested-navbar{

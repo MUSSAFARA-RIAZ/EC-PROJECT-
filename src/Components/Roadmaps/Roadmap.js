@@ -5,7 +5,7 @@ import RoadmapBoxes from './RoadmapBoxes';
 import RoadmapHeader from './RoadmapHeader';
 function Roadmap() {
   return (
-    <>
+    <div className='roadmapSec'>
       <Navabr/>
 <RoadmapHeader/>
       
@@ -21,7 +21,7 @@ function Roadmap() {
 
    
     
-  </>
+  </div>
   )
 }
 

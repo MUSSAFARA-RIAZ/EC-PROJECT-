@@ -20,7 +20,7 @@ function VideoGallery() {
   };
   
   return (
-    <>
+    <div className="videoSec">
       <Navbar />
       <h1 className="main-heading">Let's start Learning Now!</h1>
       <div className="VideoContainer">
@@ -64,7 +64,7 @@ function VideoGallery() {
         </div>
       </div>
       <Footer />
-    </>
+    </div>
   );
 }
 

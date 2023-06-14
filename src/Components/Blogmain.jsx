@@ -8,7 +8,7 @@ import Navabr from './Navabr';
 
 export default function Blogmain() {
   return (
-    <div>
+    <div className='blogSec'>
       <Navabr/>
      
      <div className='blog-introduction'>

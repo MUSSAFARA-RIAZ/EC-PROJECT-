@@ -33,7 +33,7 @@ export default function Codelove() {
   }
   }
   return (
-    <div>
+    <div className="donation">
       <h1 className="codelovehead">Code Love = Donate Love</h1>
       <p className="codelovetext">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit.

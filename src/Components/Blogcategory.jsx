@@ -57,7 +57,7 @@ const Blogcategory = () => {
       <div className='category-post-blog'>
         {filteredPosts.map((post) => (
           <div key={post.id} className='blog-cat'>
-           <img className='blog-img' src={post.img}/>
+           <img className='blog-img' alt='blogCat'src={post.img}/>
             <h2>{post.title}</h2>
             <p>{post.content}</p>
             <p>Category: {post.category}</p>
