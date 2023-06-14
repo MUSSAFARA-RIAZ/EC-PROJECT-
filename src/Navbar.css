@@ -5,7 +5,8 @@
 }
 
 .logo{
-    margin-left: 50px;
+    position: absolute;
+    right: 100px;
 }
 #navbarlink{
     color: #016354;

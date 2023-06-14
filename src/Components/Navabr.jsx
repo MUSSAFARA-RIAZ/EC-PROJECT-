@@ -28,14 +28,6 @@ function Navabr() {
 
               
           </Nav>
-          <Nav>
-           
-            
-            <a href="https://imgbb.com/">
-      <img src="https://i.ibb.co/JQrTN63/logo.png" 
-      alt="logo" border="0"/></a>
-            
-          </Nav>
         </Navbar.Collapse>
       </Container>
     </Navbar>
