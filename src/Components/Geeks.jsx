@@ -6,7 +6,8 @@ export default function Geeks() {
       <h1 className='geekhead'>Geek Out with Us</h1>
       <p className='geektext'>Our Blogs Section Is Your Ticket to Programming Paradise!</p>
       <br/>
-      <p className='geektext'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce volutpat elit ut quam viverra efficitur. Sed eu sem tristique, vestibulum nunc sed, pharetra libero. Vestibulum sed nisi nec mi lacinia feugiat. Duis at sapien ut sem imperdiet tincidunt. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Donec tellus urna, efficitur ac varius at, ullamcorper id nulla. Maecenas ac purus et risus ullamcorper dignissim.</p>
+      <p className='geektext'>Welcome to our blog section, where you'll find a treasure trove of coding tutorials designed to enhance your programming skills. Whether you're a beginner dipping your toes into the vast sea of coding or an experienced developer seeking new insights, we have something for everyone.
+      Our blog covers a wide range of programming languages, frameworks, and tools, ensuring there's always something to pique your interest. From Python to JavaScript, from web development to machine learning, our tutorials delve into various aspects of coding to help you level up your proficiency</p>
     </div>
   )
 }

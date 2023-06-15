@@ -2,6 +2,10 @@ import React from 'react'
 import Button from 'react-bootstrap/Button';
 
 export default function Horizontal() {
+  const roadmap = (event) => {
+    event.stopPropagation();
+    window.open('http://localhost:3000/roadmap',"_blank")
+  }
   return (
    <>
    <div className='parent-div'>
@@ -18,7 +22,7 @@ export default function Horizontal() {
      
 
     </p>
-    <Button variant="primary" style={{position:"relative",left:30}}>View</Button>
+    <Button variant="primary" style={{position:"relative",left:30}}onClick={roadmap}>View</Button>
    </div>
    </div>
    
@@ -35,7 +39,7 @@ export default function Horizontal() {
      
 
     </p>
-    <Button variant="primary" style={{position:"relative",left:30}}>View</Button>
+    <Button variant="primary" style={{position:"relative",left:30}}onClick={roadmap}>View</Button>
    </div>
    </div>
  

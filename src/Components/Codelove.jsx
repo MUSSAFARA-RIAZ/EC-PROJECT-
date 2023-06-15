@@ -1,54 +1,55 @@
 import React from "react";
 import Button from "react-bootstrap/Button";
 // import getStripe from "../lib/getStripe";
-import { loadStripe } from '@stripe/stripe-js';
+import { loadStripe } from "@stripe/stripe-js";
 
 export default function Codelove() {
   async function handleDonation() {
     try {
-      const apiKey = "pk_test_51NIupDI0Iae59SzotIPKqxrsfifbU10xyYhDjOxkCsUndV2OTg8aWGYvmgm4kROnSaRhfqJN8uN8yxH1P3kf8hJB00ziBUqPk8"; // Replace with your actual API key
-      const price_id= "price_1NIuvOI0Iae59SzoXB9Q1Jm4"
-  
+      const apiKey =
+        "pk_test_51NIupDI0Iae59SzotIPKqxrsfifbU10xyYhDjOxkCsUndV2OTg8aWGYvmgm4kROnSaRhfqJN8uN8yxH1P3kf8hJB00ziBUqPk8"; // Replace with your actual API key
+      const price_id = "price_1NIuvOI0Iae59SzoXB9Q1Jm4";
+
       // Make sure apiKey is a string
-      if (typeof apiKey !== 'string') {
-        throw new Error('Invalid API key');
+      if (typeof apiKey !== "string") {
+        throw new Error("Invalid API key");
       }
-  
+
       const stripe = await loadStripe(apiKey);
-    // const stripe = await getStripe();
-    const { error } = await stripe.redirectToCheckout({
-      lineItems: [
-        {
-          price: price_id,
-          quantity: 1,
-        },
-      ],
-      mode: 'subscription',
-      successUrl: `http://localhost:3000/home`,
-      cancelUrl: `http://localhost:3000/cancel`,
-    });
-    console.warn(error.message)
-  }catch (error) {
-    console.error('Error:', error);
-  }
+      // const stripe = await getStripe();
+      const { error } = await stripe.redirectToCheckout({
+        lineItems: [
+          {
+            price: price_id,
+            quantity: 1,
+          },
+        ],
+        mode: "subscription",
+        successUrl: `http://localhost:3000/home`,
+        cancelUrl: `http://localhost:3000/cancel`,
+      });
+      console.warn(error.message);
+    } catch (error) {
+      console.error("Error:", error);
+    }
   }
   return (
     <div className="donation">
       <h1 className="codelovehead">Code Love = Donate Love</h1>
       <p className="codelovetext">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Ignite the Future of Coding - Donate Today!
       </p>
       <div className="codecards">
         <div className="code1">
           <p className="codetext">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce
-            volutpat elit ut quam viverra efficitur. Sed eu sem tristique,
-            vestibulum nunc sed, pharetra libero. Vestibulum sed nisi nec mi
-            lacinia feugiat. Duis at sapien ut sem imperdiet tincidunt.
-            Vestibulum ante ipsum prim
+            We are dedicated to providing free and accessible coding tutorials
+            to empower individuals from all backgrounds to learn and excel in
+            programming. Your generous contribution can make a significant
+            impact on our mission to foster a thriving coding community and
+            promote equal access to coding education.
           </p>
           <Button
-          onClick={handleDonation}
+            onClick={handleDonation}
             variant="danger"
             style={{
               position: "relative",
@@ -67,19 +68,24 @@ export default function Codelove() {
             alt=""
           />
           <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Temporibus
-            beatae officiis fuga veritatis corrupti accusamus sint dolorum
-            perspiciatis quam veniam in quisquam. .
+            With your help, we can enhance our content production, ensuring that
+            learners receive comprehensive and up-to-date information that meets
+            their needs.
           </p>
           <hr />
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda
-            nulla, vitae blanditiis recusandae tempore aliquid similique
-            voluptate est magni! Ex?
+            we can expand our range of tutorials and cover a broader spectrum of
+            coding languages, frameworks, and technologies. This enables us to
+            cater to a wider audience and address the evolving demands of the
+            coding industry.
           </p>
         </div>
         <div className="code3">
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+          <p>
+            {" "}
+            By donating, you enable us to keep our coding tutorials and
+            resources freely available to anyone.{" "}
+          </p>
           <hr />
           <img
             className="circleimg"
@@ -87,11 +93,11 @@ export default function Codelove() {
             alt=""
           />
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius
-            molestias quas illum aliquam qui ducimus sunt voluptates, blanditiis
-            quis id ex neque aperiam dolorem, unde dignissimos impedit dolor sit
-            illo doloribus ipsum eaque sequi? Veniam necessitatibus nihil est
-            iusto perferendis?
+            Donations contribute to the development of online coding
+            communities, forums, and discussion platforms. These spaces foster
+            collaboration, knowledge sharing, and networking opportunities among
+            learners, creating a supportive and engaging environment for growth
+            and learning.
           </p>
         </div>
       </div>
