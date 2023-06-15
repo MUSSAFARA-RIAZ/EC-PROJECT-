@@ -2,7 +2,6 @@ import React from 'react'
 import '../Signup/Signup.css'
 import { Link } from 'react-router-dom';
 function Signup() {
-   
   return (
     <div id="signup-page">
       <svg
