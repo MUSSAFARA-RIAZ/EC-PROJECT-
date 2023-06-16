@@ -13,7 +13,7 @@ export default function Footer() {
 				<h3>Ody<span>ssey</span></h3>
  
 				<p class="footer-links">
-    <p style={{color:"white"}}>Lorem ipsum  voluptatum praesentium!</p>
+    <p style={{color:"white"}}><a href="https://www.linkedin.com/company/techtutor/" target='_blank'>Please View Our linkedin Page</a></p>
 				</p>
  
 				<p class="footer-company-name">Odyssey &copy; 2022</p>
